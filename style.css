@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app {
+ display: flex;
+    flex-direction: column;
+    width: min(96%, calc((var(--vh, 1vh) * 85)));
+}
